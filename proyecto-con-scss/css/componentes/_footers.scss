@@ -1,0 +1,11 @@
+footer {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	background-color: #22272d;
+	border-top: 35px solid #47cfac;
+	&__parrafo {
+		color: white;
+		margin-top: 30px;
+	}
+}

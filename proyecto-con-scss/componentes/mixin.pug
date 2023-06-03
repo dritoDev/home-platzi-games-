@@ -1,0 +1,16 @@
+mixin blog-post(encabezado,titulo,contenido)
+	.blogs__imagen
+	.grid-container
+		h3=encabezado 
+		article 
+			h1=titulo 
+			p=contenido
+			p=contenido
+			p=contenido
+
+mixin contacto-blogs(imagen,contacto,contenido)
+	div
+		img(src="imagenes/"+imagen, alt="")
+		.contactos
+			a=contacto 
+			p=contenido 

@@ -1,0 +1,32 @@
+.blogs__imagen {
+	padding: 0 50px 40px;
+
+	img {
+		width: 100%;
+	}
+}
+
+.contenedor__blog {
+	padding: 0 50px 40px;
+
+	.grid-container {
+
+		h3 {
+			padding-bottom: 15px;
+			margin-bottom: 60px;
+			border-bottom: 1px solid #cdd2da;
+		}
+		h1 {
+			font-size: 30px;
+		}
+	}
+	.contactos {
+		width: 100%;
+    min-height: 250px;
+    background-color: #cdd2da;
+    text-align: center;
+    padding-bottom: 50px;
+	}
+
+
+}

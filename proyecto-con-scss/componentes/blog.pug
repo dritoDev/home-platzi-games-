@@ -1,0 +1,8 @@
+extend ../componentes/plantilla.pug
+block contenidos 
+		section.grid-container.blogs__imagen: img(src="/imagenes/post-1.png" alt="Foto Principal")
+		section.contenedor__blog 
+			+blog-post(suptitulos[0],suptitulos[1],contenidos)
+		section.contactos
+			+contacto-blogs("013-newsletter.png",suptitulosBlogspos[0],contenidos)
+			+contacto-blogs("006-like.png",suptitulosBlogspos[1],contenidos)
